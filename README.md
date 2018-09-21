@@ -23,10 +23,13 @@ unix: PKGCONFIG += opencv
 ```
 #### 常见问题
 > <br>1.cannot find -lGL</br>
-> 解决方案： https://www.cnblogs.com/coding-my-life/p/5677256.html
+> solution: https://www.cnblogs.com/coding-my-life/p/5677256.html
 
 > <br>2.TypeError: Property 'asciify' of object Core::Internal::UtilsJsExtension(0xa2d060) is not a function </br>
-> 解决方案 https://www.cnblogs.com/zhangjunwu/p/7417566.html
+> solution: https://www.cnblogs.com/zhangjunwu/p/7417566.html
+
+> <br>3.error while loading shared libraries: libgstreamer-0.10.so.0: cannot open shared object file: No such file or directory </br>
+> solution: https://blog.csdn.net/pyf09/article/details/55777217
 
 ## opencv常见问题
-记得把opencv压缩包放在/home/username目录下解压
+记得把opencv压缩包解压到/home/username目录下
