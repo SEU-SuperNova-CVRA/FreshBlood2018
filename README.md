@@ -31,5 +31,14 @@ unix: PKGCONFIG += opencv
 > <br>3.error while loading shared libraries: libgstreamer-0.10.so.0: cannot open shared object file: No such file or directory </br>
 > solution: https://blog.csdn.net/pyf09/article/details/55777217
 
+> 4.can't open your picture like this
+  ```
+  image = imread('1.jpg', IMREAD_COLOR);
+  ```
+> solution: use absolute address to load picture like this
+  ```
+  image = imread('/home/username/qt_test/1.jpg', IMREAD_COLOR);
+  ```
+
 ## opencv常见问题
 记得把opencv压缩包解压到/home/username目录下
